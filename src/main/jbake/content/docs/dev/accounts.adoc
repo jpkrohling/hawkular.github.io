@@ -321,7 +321,7 @@ curl -v -H 'Hawkular-Persona: uuid' http://user:pass@localhost:8080/context/endp
 A list of possible personas for a given user can be obtained via:
 [source,bash]
 ----
-curl -v http://user:pass@localhost:8080/hawkular-accounts/personas
+curl -v http://user:pass@localhost:8080/hawkular/accounts/personas
 ----
 
 == Events
